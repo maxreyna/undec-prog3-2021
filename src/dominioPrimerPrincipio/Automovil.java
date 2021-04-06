@@ -9,6 +9,10 @@ public class Automovil {
         this.color = color;
     }
 
+    public void acelera(){
+        System.out.println("El automovil acelera");
+    }
+
     public String getMarca() {
         return marca;
     }
